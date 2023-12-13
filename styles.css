@@ -3,31 +3,50 @@
 
 
 nav {
-  background: #1f1f1f;
   height: 3rem;
+    color: white;
   display: grid;
+    text-align: center;
+    font-family: "Apple SD Gothic Neo";
+
 }
 .nav-center {
   width: 90vw;
-  max-width: var(--fixed-width);
   margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.nav-center h4 {
-  margin-bottom: 0;
-  color: white;
+h4 {
+    margin-bottom: 0;
+    font-size: 50px;
+    border-radius: 2px;
+    border-color: #1f1f1f;
+    text-shadow: #1f1f1f 1px 0 10px;
 }
 .nav-links {
   display: flex;
 }
 nav a {
+    position: relative;
   text-transform: capitalize;
   font-weight: 700;
   font-size: 1rem;
-  color: white; background-color: #1f1f1f;
+  color: white;
   margin-right: 1rem;
+    text-shadow: #1f1f1f 1px 0 10px;
+    color: white;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -10%);
 }
 
 
